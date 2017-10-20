@@ -1,1 +1,162 @@
-hey
+* {
+	box-sizing: border-box;
+}
+.clear {
+	clear: both;
+}
+address {
+	background-color: #136C39;
+	color: #D6EDFF;
+	width: 16%;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+body {
+	background-color: #721B15;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	color: #D6EDFF;
+}
+div.left {
+	width: 50%;
+	float: left;
+	background-color: #136C39;
+	padding: 15px;
+}
+div.left h2 {
+	color: #D6EDFF;
+	font-style: italic;
+}
+div.left p {
+	color: #D6EDFF;
+	font-size: 19px;
+}
+div.right {
+	width: 50%;
+	float: left;
+	padding: 5px;
+}
+div.right img {
+	width: 100%;
+}
+header {
+	text-align: center;
+}
+div.menu {
+	background-color: #136C39;
+	color: #D6EDFF;
+	width: 100%;
+	float: left;
+	margin-top: 25px;
+	font-size: 19px;
+	padding: 15px;
+}
+div.menu h2 {
+	font-style: italic;
+}
+div.menu table tr:nth-child(3) td{
+	font-style: italic;
+	font-size: 16px;
+}
+div.menu table tr:nth-child(5) td{
+	font-style: italic;
+	font-size: 16px;
+}
+div.menu table tr:nth-child(7) td{
+	font-style: italic;
+	font-size: 16px;
+}
+div.menu table tr:nth-child(9) td{
+	font-style: italic;
+	font-size: 16px;
+}
+div.pizza {
+	margin-top: 25px;
+	float: left;
+	width: 100%;
+	background-color: #136C39;
+	padding: 15px 15px 300px 15px;
+}
+div.pizza p {
+	color: #D6EDFF;
+	font-style: italic;
+}
+div.pizza h3 {
+	color: #D6EDFF;
+	background-color: #721B15;
+}
+div.pizza h3:hover {
+	color: #D6EDFF;
+
+}
+
+.meat-wrap {
+	position: relative;
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-right: 5%;
+}
+
+.meat-wrap img {
+	display: none;
+	position: absolute;
+	width: 100%;
+}
+
+.meat-wrap h3:hover img {
+	display: block;
+}
+.veggie-wrap {
+	position: relative;
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-right: 5%;
+}
+
+.veggie-wrap img {
+	display: none;
+	position: absolute;
+	width: 100%;
+}
+
+.veggie-wrap h3:hover img {
+	display: block;
+}
+.chicago-wrap {
+	position: relative;
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-right: 5%;
+}
+
+.chicago-wrap img {
+	display: none;
+	position: absolute;
+	width: 100%;
+}
+
+.chicago-wrap h3:hover img {
+	display: block;
+}
+.bacon-wrap {
+	position: relative;
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-right: 5%;
+}
+
+.bacon-wrap img {
+	display: none;
+	position: absolute;
+	width: 100%;
+}
+
+.bacon-wrap h3:hover img {
+	display: block;
+}
